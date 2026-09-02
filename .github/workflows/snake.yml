@@ -21,6 +21,15 @@ jobs:
             dist/snake.svg?color_snake=%23172B35&color_dots=%23F4F6F5,%23C7DDE2,%236F9EAA,%2343646F,%23172B35
             dist/snake-dark.svg?color_snake=%23C7DDE2&color_dots=%23161B22,%23172B35,%2343646F,%236F9EAA,%23C7DDE2
 
+      - name: Put the hash back on the hex colors
+        run: |
+          # snk writes custom colors into the stylesheet with the leading "#"
+          # stripped, so `fill: var(--c1)` is an invalid CSS color and SVG falls
+          # back to black. Restore it. --cb already carries its own hash and an
+          # 8-digit value, so the 6-digit pattern leaves it alone.
+          sed -i -E 's/--(c[a-z0-9]+):([0-9A-Fa-f]{6})/--\1:#\2/g' dist/*.svg
+          grep -o -- '--c[a-z0-9]*:#\?[0-9A-Fa-f]*' dist/snake.svg | head
+
       - name: Publish to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
