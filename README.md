@@ -9,25 +9,18 @@
 
 ---
 
-Most of what I build sits underneath other people's work: a proxy that picks the model,
-a scheduler that admits when it failed, a status line that renders in three milliseconds.
-Small surface, load-bearing, and cheap to throw away if it stops earning its place. The
-pinned repos are the current set.
+I'm deeply interested in AI. I work on my AI engineering constantly, always looking for
+the next better workflow.
 
-I own the architecture — the boundaries, the failure modes, the trade-off I took and the
-one I passed on — and drive models hard to build against it. Most of the judgment goes
-into deciding what should exist and why.
-
-Going deeper right now on distributed systems design, and on the layer under the API:
-how transformers actually spend their compute.
+I love building CLI tools, and I like building them in the open. The pinned repos are the
+current set.
 
 Also running **[quillfile](https://quillfile.com)** — convert, resize and compress images,
 and manipulate PDF, Word and Doc files, entirely in the browser. Nothing is uploaded.
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-172B35?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-  <img src="https://img.shields.io/badge/Rust-172B35?style=flat-square&logo=rust&logoColor=white" alt="Rust">
-  <img src="https://img.shields.io/badge/Ruby-172B35?style=flat-square&logo=ruby&logoColor=white" alt="Ruby">
+  <img src="https://img.shields.io/badge/Python-172B35?style=flat-square&logo=python&logoColor=white" alt="Python">
   <img src="https://img.shields.io/badge/Java-172B35?style=flat-square&logo=openjdk&logoColor=white" alt="Java">
 </p>
 
@@ -42,5 +35,5 @@ and manipulate PDF, Word and Doc files, entirely in the browser. Nothing is uplo
 ---
 
 <p align="center">
-  <sub><strong>Open to interesting problems</strong> · <a href="mailto:leniv.tech@gmail.com">leniv.tech@gmail.com</a></sub>
+  <sub><strong>Open to interesting challenges</strong> · <a href="mailto:leniv.tech@gmail.com">leniv.tech@gmail.com</a></sub>
 </p>
