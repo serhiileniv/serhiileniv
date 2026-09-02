@@ -22,7 +22,7 @@ I work in TypeScript, Python and Java. I improve my AI engineering practice cons
 I am always looking for the next better workflow.
 
 Also running **[quillfile](https://quillfile.com)**: convert, resize and compress images,
-and manipulate PDF, Word and Doc files, entirely in the browser. Nothing is uploaded.
+and manipulate PDF, Word and Doc files, entirely in the browser.
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-172B35?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
@@ -41,5 +41,5 @@ and manipulate PDF, Word and Doc files, entirely in the browser. Nothing is uplo
 ---
 
 <p align="center">
-  <sub><strong>Open to AI engineering roles and interesting challenges</strong> · <a href="mailto:leniv.tech@gmail.com">leniv.tech@gmail.com</a></sub>
+  <sub><strong>Open to interesting challenges</strong> · <a href="mailto:leniv.tech@gmail.com">leniv.tech@gmail.com</a></sub>
 </p>
