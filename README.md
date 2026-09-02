@@ -1,6 +1,6 @@
 <h1 align="center">Serhii Leniv</h1>
 
-<p align="center">Software engineer · AI tooling, CLIs and agent infrastructure</p>
+<p align="center">AI engineer · agent infrastructure, LLM tooling and CLIs</p>
 
 <p align="center">
   <a href="mailto:leniv.tech@gmail.com"><img src="https://img.shields.io/badge/email-leniv.tech-172B35?style=flat-square&logo=maildotru&logoColor=white" alt="email"></a>
@@ -9,13 +9,19 @@
 
 ---
 
-I'm deeply interested in AI. I work on my AI engineering constantly, always looking for
-the next better workflow.
+I build the tooling that AI engineering runs on: model routing, agent orchestration, and
+the small CLIs that sit under a coding agent's workflow. Everything I ship is open source,
+and the pinned repos are the current set.
 
-I love building CLI tools, and I like building them in the open. The pinned repos are the
-current set.
+Recent work: a drop in proxy that routes every Claude request to the cheapest model able
+to handle it, measured by replaying 200 real turns; a desktop workspace that runs a team
+of coding agents in parallel, each isolated in its own git worktree; and a coding agent
+held under 10k lines by a budget enforced in CI.
 
-Also running **[quillfile](https://quillfile.com)** — convert, resize and compress images,
+I work in TypeScript, Python and Java. I improve my AI engineering practice constantly and
+I am always looking for the next better workflow.
+
+Also running **[quillfile](https://quillfile.com)**: convert, resize and compress images,
 and manipulate PDF, Word and Doc files, entirely in the browser. Nothing is uploaded.
 
 <p align="center">
@@ -35,5 +41,5 @@ and manipulate PDF, Word and Doc files, entirely in the browser. Nothing is uplo
 ---
 
 <p align="center">
-  <sub><strong>Open to interesting challenges</strong> · <a href="mailto:leniv.tech@gmail.com">leniv.tech@gmail.com</a></sub>
+  <sub><strong>Open to AI engineering roles and interesting challenges</strong> · <a href="mailto:leniv.tech@gmail.com">leniv.tech@gmail.com</a></sub>
 </p>
