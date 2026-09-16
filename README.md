@@ -4,25 +4,18 @@
 
 <p align="center">
   <a href="mailto:leniv.tech@gmail.com"><img src="https://img.shields.io/badge/email-leniv.tech-172B35?style=flat-square&logo=maildotru&logoColor=white" alt="email"></a>
-  <a href="https://quillfile.com"><img src="https://img.shields.io/badge/quillfile-file_tools-6F9EAA?style=flat-square&logoColor=172B35" alt="quillfile"></a>
 </p>
 
 ---
 
-I build the tooling that AI engineering runs on: model routing, agent orchestration, and
-the small CLIs that sit under a coding agent's workflow. Everything I ship is open source,
-and the pinned repos are the current set.
+I build tooling for AI engineering: model routing, agent orchestration, and CLIs for
+coding agents. All open source.
 
-Recent work: a drop in proxy that routes every Claude request to the cheapest model able
-to handle it, measured by replaying 200 real turns; a desktop workspace that runs a team
-of coding agents in parallel, each isolated in its own git worktree; and a coding agent
-held under 10k lines by a budget enforced in CI.
-
-I work in TypeScript, Python and Java. I improve my AI engineering practice constantly and
-I am always looking for the next better workflow.
-
-Also running **[quillfile](https://quillfile.com)**: convert, resize and compress images,
-and manipulate PDF, Word and Doc files, entirely in the browser.
+- **[claude-router](https://github.com/serhiileniv/claude-router)**: a local proxy that sends each Claude request to the cheapest model that can handle it
+- **[agent-master](https://github.com/serhiileniv/agent-master)**: runs coding agents in parallel, each in its own git worktree
+- **[aerin](https://github.com/serhiileniv/aerin)**: a coding agent kept under 10k lines by CI
+- **[every](https://github.com/serhiileniv/every)**: schedule anything with one phrase instead of crontab or launchd
+- **[quillfile](https://quillfile.com)**: image, PDF and Word tools that run entirely in the browser
 
 <p align="center">
   <img src="https://img.shields.io/badge/TypeScript-172B35?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
@@ -37,9 +30,3 @@ and manipulate PDF, Word and Doc files, entirely in the browser.
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/serhiileniv/serhiileniv/output/snake.svg">
   <img alt="A snake eating a year of contributions off the graph" src="https://raw.githubusercontent.com/serhiileniv/serhiileniv/output/snake.svg">
 </picture>
-
----
-
-<p align="center">
-  <sub><strong>Open to interesting challenges</strong> · <a href="mailto:leniv.tech@gmail.com">leniv.tech@gmail.com</a></sub>
-</p>
