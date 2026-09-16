@@ -25,6 +25,8 @@ jobs:
           # stripped, so `fill: var(--c1)` is an invalid CSS color and SVG falls
           # back to black. Restore it. --cb already carries its own hash and an
           # 8-digit value, so the 6-digit pattern leaves it alone.
+          # snk runs in a container as root, so dist/ is root-owned.
+          sudo chown -R "$USER" dist
           sed -i -E 's/--(c[a-z0-9]+):([0-9A-Fa-f]{6})/--\1:#\2/g' dist/*.svg
           grep -o -- '--c[a-z0-9]*:#\?[0-9A-Fa-f]*' dist/snake.svg | head
 
