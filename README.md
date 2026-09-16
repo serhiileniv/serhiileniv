@@ -9,7 +9,7 @@
 ---
 
 I build tooling for AI engineering: model routing, agent orchestration, and CLIs for
-coding agents. All open source.
+coding agents.
 
 - **[claude-router](https://github.com/serhiileniv/claude-router)**: a local proxy that sends each Claude request to the cheapest model that can handle it
 - **[agent-master](https://github.com/serhiileniv/agent-master)**: runs coding agents in parallel, each in its own git worktree
