@@ -16,8 +16,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=%23F59E0B&color_dots=%23EBEDF0,%2322D3EE,%233B82F6,%23A855F7,%23EC4899
-            dist/snake-dark.svg?color_snake=%23FACC15&color_dots=%23161B22,%2322D3EE,%233B82F6,%23A855F7,%23EC4899
+            dist/snake.svg?color_snake=%230F172A&color_dots=%23EBEDF0,%23A5F3FC,%2322D3EE,%236366F1,%237C3AED
+            dist/snake-dark.svg?color_snake=%23E0E7FF&color_dots=%23161B22,%23164E63,%230891B2,%236366F1,%23A78BFA
 
       - name: Put the hash back on the hex colors
         run: |
